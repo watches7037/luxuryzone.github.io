@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Luxury Zone Watches</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luxury Zone Watches</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <h1>Luxury Zone</h1>
-  <p>Your Luxury Watch Destination</p >
-</header>
-<main>
-  <section class="gallery">
-    <h2>Watch Gallery</h2>
-    <p>Upload your watch photos and videos in the images and videos folders to display here.</p >
-  </section>
-  <section class="contact">
-    <h2>Order Now</h2>
-    <a href=" " target="_blank" class="whatsapp-btn">Order on WhatsApp</a >
-  </section>
-</main>
-<footer>
-  <p>&copy; 2025 Luxury Zone. All rights reserved.</p >
-</footer>
+
+  <header>
+    LUXURY ZONE WATCHES
+  </header>
+
+  <div class="gallery">
+    < img src="images/sample1.jpg" alt="Watch 1">
+    < img src="images/sample2.jpg" alt="Watch 2">
+    < img src="images/sample3.jpg" alt="Watch 3">
+    < img src="images/sample4.jpg" alt="Watch 4">
+    < img src="images/sample5.jpg" alt="Watch 5">
+    < img src="images/sample6.jpg" alt="Watch 6">
+  </div>
+
+  <footer>
+    WhatsApp: +44 7886 674615 | All Rights Reserved © Luxury Zone
+  </footer>
+
 </body>
 </html>
